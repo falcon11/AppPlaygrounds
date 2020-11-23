@@ -8,6 +8,8 @@
 
 #import "DatabaseManager.h"
 #import "User.h"
+#import "Dish.h"
+#import "Restaurant.h"
 
 NSString * const kDatabaseKey = @"888888";
 
@@ -34,6 +36,7 @@ NSString * const kDatabaseKey = @"888888";
 {
     self = [super init];
     if (self) {
+        [self startDatabaseTrace];
         self.database = [[WCTDatabase alloc] initWithPath:[self databasePath]];
         [self.database setCipherKey:[kDatabaseKey dataUsingEncoding:NSASCIIStringEncoding]];
     }
@@ -48,6 +51,8 @@ NSString * const kDatabaseKey = @"888888";
     NSLog(@"%s begin", __FUNCTION__);
     NSArray *clses = @[
         User.class,
+        Dish.class,
+        Restaurant.class,
     ];
     for (Class cls in clses) {
         NSString *clsString = NSStringFromClass(cls);
@@ -57,9 +62,19 @@ NSString * const kDatabaseKey = @"888888";
     }
     NSArray *schemas = [self.database getAllObjectsOnResults:{WCTMaster.name, WCTMaster.sql} fromTable:WCTMaster.TableName];
     for (WCTMaster *table : schemas) {
-        NSLog(@"SQL Of %@: %@", table.name, table.sql);
+        NSLog(@"[WCDB] SQL Of %@: %@", table.name, table.sql);
     }
-    NSLog(@"%s end", __FUNCTION__);
+    NSLog(@"[WCDB] %s end", __FUNCTION__);
+}
+
+- (void)startDatabaseTrace {
+    [WCTStatistics SetGlobalPerformanceTrace:^(WCTTag tag, NSDictionary<NSString *, NSNumber *> *sqls, NSInteger cost) {
+        NSLog(@"[WCDB] Tag: %d", tag);
+        [sqls enumerateKeysAndObjectsUsingBlock:^(NSString *sql, NSNumber *count, BOOL *) {
+          NSLog(@"[WCDB] SQL: %@ Count: %d", sql, count.intValue);
+        }];
+        NSLog(@"[WCDB] Total cost %.4f seconds", (long) cost * 1.0 / 1000000000.0);
+    }];
 }
 
 @end

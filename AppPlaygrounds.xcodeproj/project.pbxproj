@@ -20,13 +20,13 @@
 		F95492C125676A3400FB64E0 /* AppPlaygroundsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F95492C025676A3400FB64E0 /* AppPlaygroundsUITests.m */; };
 		F95492D225676E4700FB64E0 /* WCDBViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = F95492D125676E4700FB64E0 /* WCDBViewController.mm */; };
 		F95492D525676F6000FB64E0 /* DatabaseManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = F95492D425676F6000FB64E0 /* DatabaseManager.mm */; };
-		F95492DC256791BE00FB64E0 /* Restaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = F95492DB256791BE00FB64E0 /* Restaurant.m */; };
 		F95492DF256793A200FB64E0 /* Administrator.m in Sources */ = {isa = PBXBuildFile; fileRef = F95492DE256793A200FB64E0 /* Administrator.m */; };
-		F95492E22567951D00FB64E0 /* Dish.m in Sources */ = {isa = PBXBuildFile; fileRef = F95492E12567951D00FB64E0 /* Dish.m */; };
 		F95492E5256796E600FB64E0 /* Cart.m in Sources */ = {isa = PBXBuildFile; fileRef = F95492E4256796E600FB64E0 /* Cart.m */; };
 		F95492E82567975100FB64E0 /* Base.mm in Sources */ = {isa = PBXBuildFile; fileRef = F95492E72567975100FB64E0 /* Base.mm */; };
 		F95492EB2567984C00FB64E0 /* OrderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F95492EA2567984C00FB64E0 /* OrderItem.m */; };
 		F95492EE2567994300FB64E0 /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = F95492ED2567994300FB64E0 /* Order.m */; };
+		F9605D1C256B647A0005DF44 /* Dish.mm in Sources */ = {isa = PBXBuildFile; fileRef = F9605D1A256B647A0005DF44 /* Dish.mm */; };
+		F9605D23256B8A1E0005DF44 /* Restaurant.mm in Sources */ = {isa = PBXBuildFile; fileRef = F9605D21256B8A1E0005DF44 /* Restaurant.mm */; };
 		F99437FB2567A8B100824E20 /* User.mm in Sources */ = {isa = PBXBuildFile; fileRef = F99437F92567A8B100824E20 /* User.mm */; };
 /* End PBXBuildFile section */
 
@@ -79,11 +79,9 @@
 		F95492D425676F6000FB64E0 /* DatabaseManager.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = DatabaseManager.mm; sourceTree = "<group>"; };
 		F95492D72567915A00FB64E0 /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		F95492DA256791BE00FB64E0 /* Restaurant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Restaurant.h; sourceTree = "<group>"; };
-		F95492DB256791BE00FB64E0 /* Restaurant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Restaurant.m; sourceTree = "<group>"; };
 		F95492DD256793A200FB64E0 /* Administrator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Administrator.h; sourceTree = "<group>"; };
 		F95492DE256793A200FB64E0 /* Administrator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Administrator.m; sourceTree = "<group>"; };
 		F95492E02567951D00FB64E0 /* Dish.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dish.h; sourceTree = "<group>"; };
-		F95492E12567951D00FB64E0 /* Dish.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dish.m; sourceTree = "<group>"; };
 		F95492E3256796E600FB64E0 /* Cart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cart.h; sourceTree = "<group>"; };
 		F95492E4256796E600FB64E0 /* Cart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cart.m; sourceTree = "<group>"; };
 		F95492E62567975100FB64E0 /* Base.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Base.h; sourceTree = "<group>"; };
@@ -92,6 +90,10 @@
 		F95492EA2567984C00FB64E0 /* OrderItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderItem.m; sourceTree = "<group>"; };
 		F95492EC2567994300FB64E0 /* Order.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Order.h; sourceTree = "<group>"; };
 		F95492ED2567994300FB64E0 /* Order.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Order.m; sourceTree = "<group>"; };
+		F9605D1A256B647A0005DF44 /* Dish.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Dish.mm; sourceTree = "<group>"; };
+		F9605D1B256B647A0005DF44 /* Dish+WCTTableCoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dish+WCTTableCoding.h"; sourceTree = "<group>"; };
+		F9605D21256B8A1E0005DF44 /* Restaurant.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Restaurant.mm; sourceTree = "<group>"; };
+		F9605D22256B8A1E0005DF44 /* Restaurant+WCTTableCoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Restaurant+WCTTableCoding.h"; sourceTree = "<group>"; };
 		F99437F92567A8B100824E20 /* User.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = User.mm; sourceTree = "<group>"; };
 		F99437FA2567A8B100824E20 /* User+WCTTableCoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "User+WCTTableCoding.h"; sourceTree = "<group>"; };
 		F99438002567ABAF00824E20 /* Base+WCTableCoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Base+WCTableCoding.h"; sourceTree = "<group>"; };
@@ -236,13 +238,15 @@
 				F95492E3256796E600FB64E0 /* Cart.h */,
 				F95492E4256796E600FB64E0 /* Cart.m */,
 				F95492E02567951D00FB64E0 /* Dish.h */,
-				F95492E12567951D00FB64E0 /* Dish.m */,
+				F9605D1A256B647A0005DF44 /* Dish.mm */,
+				F9605D1B256B647A0005DF44 /* Dish+WCTTableCoding.h */,
 				F95492EC2567994300FB64E0 /* Order.h */,
 				F95492ED2567994300FB64E0 /* Order.m */,
 				F95492E92567984C00FB64E0 /* OrderItem.h */,
 				F95492EA2567984C00FB64E0 /* OrderItem.m */,
 				F95492DA256791BE00FB64E0 /* Restaurant.h */,
-				F95492DB256791BE00FB64E0 /* Restaurant.m */,
+				F9605D21256B8A1E0005DF44 /* Restaurant.mm */,
+				F9605D22256B8A1E0005DF44 /* Restaurant+WCTTableCoding.h */,
 				F95492D72567915A00FB64E0 /* User.h */,
 				F99437F92567A8B100824E20 /* User.mm */,
 				F99437FA2567A8B100824E20 /* User+WCTTableCoding.h */,
@@ -489,17 +493,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				F95492A125676A3100FB64E0 /* ViewController.m in Sources */,
-				F95492E22567951D00FB64E0 /* Dish.m in Sources */,
-				F95492DC256791BE00FB64E0 /* Restaurant.m in Sources */,
 				F954929B25676A3100FB64E0 /* AppDelegate.m in Sources */,
 				F95492DF256793A200FB64E0 /* Administrator.m in Sources */,
 				F95492E5256796E600FB64E0 /* Cart.m in Sources */,
 				F95492E82567975100FB64E0 /* Base.mm in Sources */,
 				F99437FB2567A8B100824E20 /* User.mm in Sources */,
 				F95492EE2567994300FB64E0 /* Order.m in Sources */,
+				F9605D1C256B647A0005DF44 /* Dish.mm in Sources */,
 				F95492D225676E4700FB64E0 /* WCDBViewController.mm in Sources */,
 				F95492EB2567984C00FB64E0 /* OrderItem.m in Sources */,
 				F95492D525676F6000FB64E0 /* DatabaseManager.mm in Sources */,
+				F9605D23256B8A1E0005DF44 /* Restaurant.mm in Sources */,
 				F95492AC25676A3400FB64E0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
