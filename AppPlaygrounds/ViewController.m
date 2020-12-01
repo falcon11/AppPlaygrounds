@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import <Runtime_Category/CTMediator+Runtime.h>
+#import <WCDBModule_Category/CTMediator+WCDB.h>
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -23,8 +24,8 @@
         _dataSources = @[
             @{
                 @"name": @"WCDB",
-                @"selctor": NSStringFromSelector(@selector(pushPage:)),
-                @"params": @"WCDBViewController"
+                @"selctor": NSStringFromSelector(@selector(pushVC:)),
+                @"params": [CTMediator.sharedInstance WCDB_viewController],
             },
             @{
                 @"name": @"Runtime",

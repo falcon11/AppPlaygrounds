@@ -1,0 +1,25 @@
+//
+//  ViewController.m
+//  WCDBPlayground
+//
+//  Created by ashoka on 2020/12/1.
+//  Copyright © 2020 iWhaleCloud. All rights reserved.
+//
+
+#import "ViewController.h"
+
+@interface ViewController ()
+
+@end
+
+@implementation ViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view.
+    self.title = @"WCDBPlayground";
+    self.view.backgroundColor = UIColor.systemBackgroundColor;
+}
+
+
+@end

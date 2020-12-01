@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:WCDBPlayground/WCDBPlayground.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Runtime/RuntimePlayground.xcodeproj">
    </FileRef>
    <FileRef

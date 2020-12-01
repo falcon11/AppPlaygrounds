@@ -11,9 +11,10 @@ abstract_target 'Playground' do
     # Comment the next line if you don't want to use dynamic frameworks
     use_frameworks!
     
-    pod 'WCDB'
     pod 'Runtime', :path => 'Runtime'
     pod 'Runtime_Category', :path => 'Runtime'
+    pod 'WCDBModule', :path => 'WCDBPlayground'
+    pod 'WCDBModule_Category', :path => 'WCDBPlayground'
 
     # Pods for AppPlaygrounds
 
@@ -29,8 +30,12 @@ abstract_target 'Playground' do
   end
   
   target 'RuntimePlayground' do
-  project 'Runtime/RuntimePlayground.xcodeproj'
+    project 'Runtime/RuntimePlayground.xcodeproj'
     
+  end
+  target 'WCDBPlayground' do
+    project 'WCDBPlayground/WCDBPlayground.xcodeproj'
+    pod 'WCDB'
   end
   
 end

@@ -9,6 +9,11 @@ PODS:
   - WCDB (1.0.7.5):
     - SQLiteRepairKit (~> 1.2.0)
     - WCDBOptimizedSQLCipher (~> 1.2.0)
+  - WCDBModule (0.0.1):
+    - CTMediator
+    - WCDB
+  - WCDBModule_Category (0.0.1):
+    - CTMediator
   - WCDBOptimizedSQLCipher (1.2.1)
 
 DEPENDENCIES:
@@ -16,6 +21,8 @@ DEPENDENCIES:
   - Runtime (from `Runtime`)
   - Runtime_Category (from `Runtime`)
   - WCDB
+  - WCDBModule (from `WCDBPlayground`)
+  - WCDBModule_Category (from `WCDBPlayground`)
 
 SPEC REPOS:
   trunk:
@@ -29,6 +36,10 @@ EXTERNAL SOURCES:
     :path: Runtime
   Runtime_Category:
     :path: Runtime
+  WCDBModule:
+    :path: WCDBPlayground
+  WCDBModule_Category:
+    :path: WCDBPlayground
 
 SPEC CHECKSUMS:
   CTMediator: 933dba523da87bf875e4a7e8728945fbc512f1d2
@@ -36,8 +47,10 @@ SPEC CHECKSUMS:
   Runtime_Category: aec57e3a289d4b81e78d3a4387320ff83006f301
   SQLiteRepairKit: 35aaae5a8838adb85f5b1eb4d796055be6060a4b
   WCDB: 8e90babdeb7784c569353a4bd22a66c0a175a882
+  WCDBModule: 3d74e601cc487cc054cf930c406ad13b4f9a90c7
+  WCDBModule_Category: 4d90f9f4a3c33de7b3153f264f233a06048c4e7e
   WCDBOptimizedSQLCipher: baf44493b0c7a3d49e97bc5b64a3856f6428ddd1
 
-PODFILE CHECKSUM: 92310f089f7b502223a0cdd8bf004a54e43c16f4
+PODFILE CHECKSUM: 07282c2931c29e8d651e8252a68437b9d37e68a3
 
 COCOAPODS: 1.10.0
