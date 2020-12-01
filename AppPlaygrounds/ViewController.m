@@ -7,22 +7,33 @@
 //
 
 #import "ViewController.h"
+#import <Runtime_Category/CTMediator+Runtime.h>
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, strong) UITableView *tableView;
+@property (nonatomic, strong) NSArray *dataSources;
 
 @end
 
 @implementation ViewController
 
 - (NSArray *)dataSources {
-    return @[
-        @{
-            @"name": @"WCDB",
-            @"page": @"WCDBViewController",
-        },
-    ];
+    if (!_dataSources) {
+        _dataSources = @[
+            @{
+                @"name": @"WCDB",
+                @"selctor": NSStringFromSelector(@selector(pushPage:)),
+                @"params": @"WCDBViewController"
+            },
+            @{
+                @"name": @"Runtime",
+                @"selctor": NSStringFromSelector(@selector(pushVC:)),
+                @"params": [CTMediator.sharedInstance Runtime_viewController],
+            },
+        ];
+    }
+    return _dataSources;
 }
 
 - (void)viewDidLoad {
@@ -37,6 +48,15 @@
 - (void)viewDidLayoutSubviews {
     [super viewDidLayoutSubviews];
     self.tableView.frame = self.view.bounds;
+}
+
+- (void)pushPage:(NSString *)page {
+    UIViewController *pageVC = [[NSClassFromString(page) alloc] init];
+    [self.navigationController pushViewController:pageVC animated:YES];
+}
+
+- (void)pushVC:(UIViewController *)vc {
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 #pragma mark - TableView
@@ -56,10 +76,9 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    NSString *pageClass = [self dataSources][indexPath.row][@"page"];
-    UIViewController *page = [[NSClassFromString(pageClass) alloc] init];
-    [self.navigationController pushViewController:page animated:YES];
-    return;
+    SEL selector = NSSelectorFromString([self dataSources][indexPath.row][@"selctor"]);
+    id params = [self dataSources][indexPath.row][@"params"];
+    [self performSelector:selector withObject:params];
 }
 
 @end

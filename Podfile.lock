@@ -1,4 +1,9 @@
 PODS:
+  - CTMediator (44)
+  - Runtime (0.0.1):
+    - CTMediator
+  - Runtime_Category (0.0.1):
+    - CTMediator
   - SQLiteRepairKit (1.2.2):
     - WCDBOptimizedSQLCipher (~> 1.2.0)
   - WCDB (1.0.7.5):
@@ -7,19 +12,32 @@ PODS:
   - WCDBOptimizedSQLCipher (1.2.1)
 
 DEPENDENCIES:
+  - CTMediator
+  - Runtime (from `Runtime`)
+  - Runtime_Category (from `Runtime`)
   - WCDB
 
 SPEC REPOS:
   trunk:
+    - CTMediator
     - SQLiteRepairKit
     - WCDB
     - WCDBOptimizedSQLCipher
 
+EXTERNAL SOURCES:
+  Runtime:
+    :path: Runtime
+  Runtime_Category:
+    :path: Runtime
+
 SPEC CHECKSUMS:
+  CTMediator: 933dba523da87bf875e4a7e8728945fbc512f1d2
+  Runtime: bf0ccb0779128a29d68f47e7ff91aa0d4b07fcc7
+  Runtime_Category: 866e6433031f6ff22e6faf080626ad3a29b6563b
   SQLiteRepairKit: 35aaae5a8838adb85f5b1eb4d796055be6060a4b
   WCDB: 8e90babdeb7784c569353a4bd22a66c0a175a882
   WCDBOptimizedSQLCipher: baf44493b0c7a3d49e97bc5b64a3856f6428ddd1
 
-PODFILE CHECKSUM: ee0f445b3cf7c41bec7ba1471cf3a732cc57fc63
+PODFILE CHECKSUM: 92310f089f7b502223a0cdd8bf004a54e43c16f4
 
 COCOAPODS: 1.10.0
