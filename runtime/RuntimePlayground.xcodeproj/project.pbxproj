@@ -170,6 +170,7 @@
 				F91FD8D92574D69E00F0D5F7 /* Sources */,
 				F91FD8DA2574D69E00F0D5F7 /* Frameworks */,
 				F91FD8DB2574D69E00F0D5F7 /* Resources */,
+				977A6C1F7617612CFB6EC73B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -226,6 +227,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		977A6C1F7617612CFB6EC73B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Playground-RuntimePlayground/Pods-Playground-RuntimePlayground-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Playground-RuntimePlayground/Pods-Playground-RuntimePlayground-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Playground-RuntimePlayground/Pods-Playground-RuntimePlayground-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		BFC78E8B9C4775F2A04E278E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

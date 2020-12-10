@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <WCCommon/WCCommon.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

@@ -207,6 +207,7 @@
 				F91FD9132576447500F0D5F7 /* Sources */,
 				F91FD9142576447500F0D5F7 /* Frameworks */,
 				F91FD9152576447500F0D5F7 /* Resources */,
+				611F3FFCD0B94B83F5C6D3F2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -263,6 +264,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		611F3FFCD0B94B83F5C6D3F2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Playground-WCDBPlayground/Pods-Playground-WCDBPlayground-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Playground-WCDBPlayground/Pods-Playground-WCDBPlayground-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Playground-WCDBPlayground/Pods-Playground-WCDBPlayground-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		716C04A408F46583993D7DE5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

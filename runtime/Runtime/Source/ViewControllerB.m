@@ -18,7 +18,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.title = @"B";
-    self.view.backgroundColor = UIColor.systemBackgroundColor;
 }
 
 /*

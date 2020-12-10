@@ -47,6 +47,7 @@ extern NSString *const WCThemeIdentifierGrapefruit;
 extern NSString *const WCThemeIdentifierGrass;
 extern NSString *const WCThemeIdentifierPinkRose;
 extern NSString *const WCThemeIdentifierDark;
+extern NSString *const WCResponseSystemStyleIdendifier;
 
 @interface WCCommonUI : NSObject
 

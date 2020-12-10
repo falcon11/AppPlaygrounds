@@ -9,10 +9,11 @@
 #import "ViewController.h"
 #import <Runtime_Category/CTMediator+Runtime.h>
 #import <WCDBModule_Category/CTMediator+WCDB.h>
+#import "ThemeSettingViewController.h"
 
-@interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
+@interface ViewController ()<QMUITableViewDelegate, QMUITableViewDataSource>
 
-@property (nonatomic, strong) UITableView *tableView;
+@property (nonatomic, strong) QMUITableView *tableView;
 @property (nonatomic, strong) NSArray *dataSources;
 
 @end
@@ -32,6 +33,11 @@
                 @"selctor": NSStringFromSelector(@selector(pushVC:)),
                 @"params": [CTMediator.sharedInstance Runtime_viewController],
             },
+            @{
+                @"name": @"Theme",
+                @"selctor": NSStringFromSelector(@selector(pushVC:)),
+                @"params": [ThemeSettingViewController new],
+            },
         ];
     }
     return _dataSources;
@@ -40,7 +46,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
+    self.tableView = [[QMUITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
     [self.view addSubview:self.tableView];
@@ -70,7 +76,7 @@
     static NSString * const cellID = @"CellID";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellID];
     if (!cell) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellID];
+        cell = [[QMUITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellID];
     }
     cell.textLabel.text = [self dataSources][indexPath.row][@"name"];
     return cell;

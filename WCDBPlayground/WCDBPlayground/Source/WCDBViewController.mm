@@ -13,9 +13,9 @@
 #import "Dish.h"
 #import "Restaurant.h"
 
-@interface WCDBViewController ()<UITableViewDataSource, UITableViewDelegate>
+@interface WCDBViewController ()<QMUITableViewDataSource, QMUITableViewDelegate>
 
-@property (nonatomic, strong) UITableView *tableView;
+@property (nonatomic, strong) QMUITableView *tableView;
 
 @end
 
@@ -27,7 +27,7 @@
     self.title = @"WCDB";
     [DatabaseManager.sharedInstance prepare];
     
-    self.tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
+    self.tableView = [[QMUITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
     self.tableView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     [self.view addSubview:self.tableView];
     self.tableView.dataSource = self;
@@ -70,7 +70,7 @@
     static NSString * const cellID = @"cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellID];
     if (!cell) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellID];
+        cell = [[QMUITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellID];
     }
     NSDictionary *func = [self functions][indexPath.row];
     cell.textLabel.text = func[@"name"];

@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <WCCommon/WCCommon.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : QMUICommonViewController
 
 
 @end

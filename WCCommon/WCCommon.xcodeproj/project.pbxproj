@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		DCBDD2218566FCC28C8DF918 /* libPods-WCCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B74CC060E588AAB8F7E9D12E /* libPods-WCCommon.a */; };
+		F923C2A0258237B400D7EB44 /* QMUIConfigurationTemplatePinkRose.m in Sources */ = {isa = PBXBuildFile; fileRef = F923C295258237B400D7EB44 /* QMUIConfigurationTemplatePinkRose.m */; };
+		F923C2A1258237B400D7EB44 /* QDThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F923C297258237B400D7EB44 /* QDThemeManager.m */; };
+		F923C2A2258237B400D7EB44 /* QMUIConfigurationTemplateGrapefruit.m in Sources */ = {isa = PBXBuildFile; fileRef = F923C29B258237B400D7EB44 /* QMUIConfigurationTemplateGrapefruit.m */; };
+		F923C2A3258237B400D7EB44 /* QMUIConfigurationTemplateGrass.m in Sources */ = {isa = PBXBuildFile; fileRef = F923C29D258237B400D7EB44 /* QMUIConfigurationTemplateGrass.m */; };
+		F923C2A4258237B400D7EB44 /* QMUIConfigurationTemplateDark.m in Sources */ = {isa = PBXBuildFile; fileRef = F923C29E258237B400D7EB44 /* QMUIConfigurationTemplateDark.m */; };
+		F923C2A8258238F900D7EB44 /* WCUIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F923C2A7258238F900D7EB44 /* WCUIHelper.m */; };
+		F923C2D325824BAE00D7EB44 /* QDThemeProtocol.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F923C298258237B400D7EB44 /* QDThemeProtocol.h */; };
 		F9BFE57125820A66003FDE23 /* WCCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BFE57025820A66003FDE23 /* WCCommon.m */; };
 		F9BFE57225820A66003FDE23 /* WCCommon.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BFE56F25820A66003FDE23 /* WCCommon.h */; };
 		F9BFE58925821140003FDE23 /* WCCommonUI.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BFE57D25820FA2003FDE23 /* WCCommonUI.m */; };
 		F9BFE58B25821143003FDE23 /* QMUIConfigurationTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BFE57A25820AB0003FDE23 /* QMUIConfigurationTemplate.m */; };
 		F9BFE5A9258214F2003FDE23 /* WCCommonUI.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BFE57C25820FA2003FDE23 /* WCCommonUI.h */; };
-		F9BFE5AA258214F2003FDE23 /* QMUIConfigurationTemplate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BFE57925820AB0003FDE23 /* QMUIConfigurationTemplate.h */; };
+		F9BFE6D025830A66003FDE23 /* QDThemeManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F923C296258237B400D7EB44 /* QDThemeManager.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +30,9 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				F9BFE6D025830A66003FDE23 /* QDThemeManager.h in CopyFiles */,
+				F923C2D325824BAE00D7EB44 /* QDThemeProtocol.h in CopyFiles */,
 				F9BFE5A9258214F2003FDE23 /* WCCommonUI.h in CopyFiles */,
-				F9BFE5AA258214F2003FDE23 /* QMUIConfigurationTemplate.h in CopyFiles */,
 				F9BFE57225820A66003FDE23 /* WCCommon.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -35,6 +43,19 @@
 		65D02760F4E18DDD0CA1312A /* Pods-WCCommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WCCommon.release.xcconfig"; path = "Target Support Files/Pods-WCCommon/Pods-WCCommon.release.xcconfig"; sourceTree = "<group>"; };
 		B74CC060E588AAB8F7E9D12E /* libPods-WCCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WCCommon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D881CB238BFA15480F8A1518 /* Pods-WCCommon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WCCommon.debug.xcconfig"; path = "Target Support Files/Pods-WCCommon/Pods-WCCommon.debug.xcconfig"; sourceTree = "<group>"; };
+		F923C295258237B400D7EB44 /* QMUIConfigurationTemplatePinkRose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIConfigurationTemplatePinkRose.m; sourceTree = "<group>"; };
+		F923C296258237B400D7EB44 /* QDThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDThemeManager.h; sourceTree = "<group>"; };
+		F923C297258237B400D7EB44 /* QDThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDThemeManager.m; sourceTree = "<group>"; };
+		F923C298258237B400D7EB44 /* QDThemeProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDThemeProtocol.h; sourceTree = "<group>"; };
+		F923C299258237B400D7EB44 /* QMUIConfigurationTemplateGrapefruit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIConfigurationTemplateGrapefruit.h; sourceTree = "<group>"; };
+		F923C29A258237B400D7EB44 /* QMUIConfigurationTemplateDark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIConfigurationTemplateDark.h; sourceTree = "<group>"; };
+		F923C29B258237B400D7EB44 /* QMUIConfigurationTemplateGrapefruit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIConfigurationTemplateGrapefruit.m; sourceTree = "<group>"; };
+		F923C29C258237B400D7EB44 /* QMUIConfigurationTemplateGrass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIConfigurationTemplateGrass.h; sourceTree = "<group>"; };
+		F923C29D258237B400D7EB44 /* QMUIConfigurationTemplateGrass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIConfigurationTemplateGrass.m; sourceTree = "<group>"; };
+		F923C29E258237B400D7EB44 /* QMUIConfigurationTemplateDark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIConfigurationTemplateDark.m; sourceTree = "<group>"; };
+		F923C29F258237B400D7EB44 /* QMUIConfigurationTemplatePinkRose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIConfigurationTemplatePinkRose.h; sourceTree = "<group>"; };
+		F923C2A6258238F900D7EB44 /* WCUIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCUIHelper.h; sourceTree = "<group>"; };
+		F923C2A7258238F900D7EB44 /* WCUIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCUIHelper.m; sourceTree = "<group>"; };
 		F9BFE56C25820A66003FDE23 /* libWCCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWCCommon.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9BFE56F25820A66003FDE23 /* WCCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCCommon.h; sourceTree = "<group>"; };
 		F9BFE57025820A66003FDE23 /* WCCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCCommon.m; sourceTree = "<group>"; };
@@ -42,6 +63,7 @@
 		F9BFE57A25820AB0003FDE23 /* QMUIConfigurationTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIConfigurationTemplate.m; sourceTree = "<group>"; };
 		F9BFE57C25820FA2003FDE23 /* WCCommonUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCCommonUI.h; sourceTree = "<group>"; };
 		F9BFE57D25820FA2003FDE23 /* WCCommonUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCCommonUI.m; sourceTree = "<group>"; };
+		F9BFE6EC2583178B003FDE23 /* WCCommon.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; indentWidth = 2; path = WCCommon.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +99,7 @@
 		F9BFE56325820A66003FDE23 = {
 			isa = PBXGroup;
 			children = (
+				F9BFE6EB25831776003FDE23 /* Supporting Files */,
 				F9BFE56E25820A66003FDE23 /* WCCommon */,
 				F9BFE56D25820A66003FDE23 /* Products */,
 				8B90813F17D8C811AEA781FA /* Pods */,
@@ -106,6 +129,17 @@
 		F9BFE57B25820AB0003FDE23 /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
+				F923C296258237B400D7EB44 /* QDThemeManager.h */,
+				F923C297258237B400D7EB44 /* QDThemeManager.m */,
+				F923C298258237B400D7EB44 /* QDThemeProtocol.h */,
+				F923C29A258237B400D7EB44 /* QMUIConfigurationTemplateDark.h */,
+				F923C29E258237B400D7EB44 /* QMUIConfigurationTemplateDark.m */,
+				F923C299258237B400D7EB44 /* QMUIConfigurationTemplateGrapefruit.h */,
+				F923C29B258237B400D7EB44 /* QMUIConfigurationTemplateGrapefruit.m */,
+				F923C29C258237B400D7EB44 /* QMUIConfigurationTemplateGrass.h */,
+				F923C29D258237B400D7EB44 /* QMUIConfigurationTemplateGrass.m */,
+				F923C29F258237B400D7EB44 /* QMUIConfigurationTemplatePinkRose.h */,
+				F923C295258237B400D7EB44 /* QMUIConfigurationTemplatePinkRose.m */,
 				F9BFE57925820AB0003FDE23 /* QMUIConfigurationTemplate.h */,
 				F9BFE57A25820AB0003FDE23 /* QMUIConfigurationTemplate.m */,
 			);
@@ -115,10 +149,20 @@
 		F9BFE57E25820FA2003FDE23 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				F923C2A6258238F900D7EB44 /* WCUIHelper.h */,
+				F923C2A7258238F900D7EB44 /* WCUIHelper.m */,
 				F9BFE57C25820FA2003FDE23 /* WCCommonUI.h */,
 				F9BFE57D25820FA2003FDE23 /* WCCommonUI.m */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		F9BFE6EB25831776003FDE23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9BFE6EC2583178B003FDE23 /* WCCommon.podspec */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,9 +247,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F923C2A1258237B400D7EB44 /* QDThemeManager.m in Sources */,
 				F9BFE58925821140003FDE23 /* WCCommonUI.m in Sources */,
+				F923C2A8258238F900D7EB44 /* WCUIHelper.m in Sources */,
+				F923C2A0258237B400D7EB44 /* QMUIConfigurationTemplatePinkRose.m in Sources */,
+				F923C2A3258237B400D7EB44 /* QMUIConfigurationTemplateGrass.m in Sources */,
+				F923C2A4258237B400D7EB44 /* QMUIConfigurationTemplateDark.m in Sources */,
 				F9BFE57125820A66003FDE23 /* WCCommon.m in Sources */,
 				F9BFE58B25821143003FDE23 /* QMUIConfigurationTemplate.m in Sources */,
+				F923C2A2258237B400D7EB44 /* QMUIConfigurationTemplateGrapefruit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

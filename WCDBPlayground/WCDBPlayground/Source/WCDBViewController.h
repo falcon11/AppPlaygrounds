@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <WCCommon/WCCommon.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface WCDBViewController : UIViewController
+@interface WCDBViewController : QMUICommonViewController
 
 @end
 

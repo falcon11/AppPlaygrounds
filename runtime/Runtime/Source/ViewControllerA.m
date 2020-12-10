@@ -21,7 +21,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.title = @"A";
-    self.view.backgroundColor = UIColor.systemBackgroundColor;
     self.button = [UIButton buttonWithType:UIButtonTypeSystem];
     [self.button setTitle:@"push B" forState:UIControlStateNormal];
     [self.button addTarget:self action:@selector(handleButtonClick:) forControlEvents:UIControlEventTouchUpInside];

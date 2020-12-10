@@ -7,6 +7,7 @@ abstract_target 'Playground' do
 #  use_modular_headers!
   
   pod 'CTMediator'
+  pod 'WCCommon', :path => 'WCCommon'
   
   target 'AppPlaygrounds' do
     # Comment the next line if you don't want to use dynamic frameworks

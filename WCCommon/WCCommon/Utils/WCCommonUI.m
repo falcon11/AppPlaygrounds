@@ -14,6 +14,7 @@ NSString *const WCThemeIdentifierGrapefruit = @"Grapefruit";
 NSString *const WCThemeIdentifierGrass = @"Grass";
 NSString *const WCThemeIdentifierPinkRose = @"Pink Rose";
 NSString *const WCThemeIdentifierDark = @"Dark";
+NSString *const WCResponseSystemStyleIdendifier = @"responseSystemStyle";
 
 @implementation WCCommonUI
 
