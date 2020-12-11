@@ -6,11 +6,9 @@
 //  Copyright © 2020 iWhaleCloud. All rights reserved.
 //
 
-#import "QMUICommonViewController.h"
-
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ThemeSettingViewController : QMUICommonViewController
+@interface ThemeSettingViewController : WCCommonViewController
 
 @end
 

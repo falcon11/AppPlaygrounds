@@ -49,6 +49,11 @@ extern NSString *const WCThemeIdentifierPinkRose;
 extern NSString *const WCThemeIdentifierDark;
 extern NSString *const WCResponseSystemStyleIdendifier;
 
+#define CodeFontMake(_pointSize) [UIFont fontWithName:@"Menlo" size:_pointSize]
+#define CodeAttributes(_fontSize) @{NSFontAttributeName: CodeFontMake(_fontSize), NSForegroundColorAttributeName: QDThemeManager.currentTheme.themeCodeColor}
+
+#define IsUITest NSProcessInfo.processInfo.environment[@"isUITest"].boolValue
+
 @interface WCCommonUI : NSObject
 
 @end

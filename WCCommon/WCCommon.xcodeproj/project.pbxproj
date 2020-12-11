@@ -15,6 +15,22 @@
 		F923C2A4258237B400D7EB44 /* QMUIConfigurationTemplateDark.m in Sources */ = {isa = PBXBuildFile; fileRef = F923C29E258237B400D7EB44 /* QMUIConfigurationTemplateDark.m */; };
 		F923C2A8258238F900D7EB44 /* WCUIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F923C2A7258238F900D7EB44 /* WCUIHelper.m */; };
 		F923C2D325824BAE00D7EB44 /* QDThemeProtocol.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F923C298258237B400D7EB44 /* QDThemeProtocol.h */; };
+		F9B2484925834637001898B9 /* WCCommonGroupListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B2483925834637001898B9 /* WCCommonGroupListViewController.m */; };
+		F9B2484A25834637001898B9 /* WCCommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B2483C25834637001898B9 /* WCCommonViewController.m */; };
+		F9B2484B25834637001898B9 /* WCCommonGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B2483F25834637001898B9 /* WCCommonGridViewController.m */; };
+		F9B2484C25834637001898B9 /* WCStyleSelectableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B2484025834637001898B9 /* WCStyleSelectableTableViewController.m */; };
+		F9B2484D25834637001898B9 /* WCTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B2484125834637001898B9 /* WCTabBarViewController.m */; };
+		F9B2484E25834637001898B9 /* WCCommonListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B2484325834637001898B9 /* WCCommonListViewController.m */; };
+		F9B2484F25834637001898B9 /* WCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B2484625834637001898B9 /* WCNavigationController.m */; };
+		F9B2485025834637001898B9 /* WCCommonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B2484725834637001898B9 /* WCCommonTableViewController.m */; };
+		F9B2485225834685001898B9 /* WCTabBarViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9B2483A25834637001898B9 /* WCTabBarViewController.h */; };
+		F9B2485325834685001898B9 /* WCCommonListViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9B2483B25834637001898B9 /* WCCommonListViewController.h */; };
+		F9B2485425834685001898B9 /* WCNavigationController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9B2483D25834637001898B9 /* WCNavigationController.h */; };
+		F9B2485525834685001898B9 /* WCCommonTableViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9B2483E25834637001898B9 /* WCCommonTableViewController.h */; };
+		F9B2485625834685001898B9 /* WCCommonGroupListViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9B2484225834637001898B9 /* WCCommonGroupListViewController.h */; };
+		F9B2485725834685001898B9 /* WCCommonGridViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9B2484425834637001898B9 /* WCCommonGridViewController.h */; };
+		F9B2485825834685001898B9 /* WCCommonViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9B2484525834637001898B9 /* WCCommonViewController.h */; };
+		F9B2485925834685001898B9 /* WCStyleSelectableTableViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9B2484825834637001898B9 /* WCStyleSelectableTableViewController.h */; };
 		F9BFE57125820A66003FDE23 /* WCCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BFE57025820A66003FDE23 /* WCCommon.m */; };
 		F9BFE57225820A66003FDE23 /* WCCommon.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BFE56F25820A66003FDE23 /* WCCommon.h */; };
 		F9BFE58925821140003FDE23 /* WCCommonUI.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BFE57D25820FA2003FDE23 /* WCCommonUI.m */; };
@@ -30,6 +46,14 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				F9B2485225834685001898B9 /* WCTabBarViewController.h in CopyFiles */,
+				F9B2485325834685001898B9 /* WCCommonListViewController.h in CopyFiles */,
+				F9B2485425834685001898B9 /* WCNavigationController.h in CopyFiles */,
+				F9B2485525834685001898B9 /* WCCommonTableViewController.h in CopyFiles */,
+				F9B2485625834685001898B9 /* WCCommonGroupListViewController.h in CopyFiles */,
+				F9B2485725834685001898B9 /* WCCommonGridViewController.h in CopyFiles */,
+				F9B2485825834685001898B9 /* WCCommonViewController.h in CopyFiles */,
+				F9B2485925834685001898B9 /* WCStyleSelectableTableViewController.h in CopyFiles */,
 				F9BFE6D025830A66003FDE23 /* QDThemeManager.h in CopyFiles */,
 				F923C2D325824BAE00D7EB44 /* QDThemeProtocol.h in CopyFiles */,
 				F9BFE5A9258214F2003FDE23 /* WCCommonUI.h in CopyFiles */,
@@ -56,6 +80,22 @@
 		F923C29F258237B400D7EB44 /* QMUIConfigurationTemplatePinkRose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIConfigurationTemplatePinkRose.h; sourceTree = "<group>"; };
 		F923C2A6258238F900D7EB44 /* WCUIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCUIHelper.h; sourceTree = "<group>"; };
 		F923C2A7258238F900D7EB44 /* WCUIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCUIHelper.m; sourceTree = "<group>"; };
+		F9B2483925834637001898B9 /* WCCommonGroupListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCCommonGroupListViewController.m; sourceTree = "<group>"; };
+		F9B2483A25834637001898B9 /* WCTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCTabBarViewController.h; sourceTree = "<group>"; };
+		F9B2483B25834637001898B9 /* WCCommonListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCCommonListViewController.h; sourceTree = "<group>"; };
+		F9B2483C25834637001898B9 /* WCCommonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCCommonViewController.m; sourceTree = "<group>"; };
+		F9B2483D25834637001898B9 /* WCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCNavigationController.h; sourceTree = "<group>"; };
+		F9B2483E25834637001898B9 /* WCCommonTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCCommonTableViewController.h; sourceTree = "<group>"; };
+		F9B2483F25834637001898B9 /* WCCommonGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCCommonGridViewController.m; sourceTree = "<group>"; };
+		F9B2484025834637001898B9 /* WCStyleSelectableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCStyleSelectableTableViewController.m; sourceTree = "<group>"; };
+		F9B2484125834637001898B9 /* WCTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCTabBarViewController.m; sourceTree = "<group>"; };
+		F9B2484225834637001898B9 /* WCCommonGroupListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCCommonGroupListViewController.h; sourceTree = "<group>"; };
+		F9B2484325834637001898B9 /* WCCommonListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCCommonListViewController.m; sourceTree = "<group>"; };
+		F9B2484425834637001898B9 /* WCCommonGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCCommonGridViewController.h; sourceTree = "<group>"; };
+		F9B2484525834637001898B9 /* WCCommonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCCommonViewController.h; sourceTree = "<group>"; };
+		F9B2484625834637001898B9 /* WCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCNavigationController.m; sourceTree = "<group>"; };
+		F9B2484725834637001898B9 /* WCCommonTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCCommonTableViewController.m; sourceTree = "<group>"; };
+		F9B2484825834637001898B9 /* WCStyleSelectableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCStyleSelectableTableViewController.h; sourceTree = "<group>"; };
 		F9BFE56C25820A66003FDE23 /* libWCCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWCCommon.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9BFE56F25820A66003FDE23 /* WCCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCCommon.h; sourceTree = "<group>"; };
 		F9BFE57025820A66003FDE23 /* WCCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCCommon.m; sourceTree = "<group>"; };
@@ -96,6 +136,29 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F9B2483825834637001898B9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F9B2484425834637001898B9 /* WCCommonGridViewController.h */,
+				F9B2483F25834637001898B9 /* WCCommonGridViewController.m */,
+				F9B2484225834637001898B9 /* WCCommonGroupListViewController.h */,
+				F9B2483925834637001898B9 /* WCCommonGroupListViewController.m */,
+				F9B2483B25834637001898B9 /* WCCommonListViewController.h */,
+				F9B2484325834637001898B9 /* WCCommonListViewController.m */,
+				F9B2483E25834637001898B9 /* WCCommonTableViewController.h */,
+				F9B2484725834637001898B9 /* WCCommonTableViewController.m */,
+				F9B2484525834637001898B9 /* WCCommonViewController.h */,
+				F9B2483C25834637001898B9 /* WCCommonViewController.m */,
+				F9B2483D25834637001898B9 /* WCNavigationController.h */,
+				F9B2484625834637001898B9 /* WCNavigationController.m */,
+				F9B2484825834637001898B9 /* WCStyleSelectableTableViewController.h */,
+				F9B2484025834637001898B9 /* WCStyleSelectableTableViewController.m */,
+				F9B2483A25834637001898B9 /* WCTabBarViewController.h */,
+				F9B2484125834637001898B9 /* WCTabBarViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		F9BFE56325820A66003FDE23 = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +181,7 @@
 		F9BFE56E25820A66003FDE23 /* WCCommon */ = {
 			isa = PBXGroup;
 			children = (
+				F9B2483825834637001898B9 /* Controllers */,
 				F9BFE57E25820FA2003FDE23 /* Utils */,
 				F9BFE57B25820AB0003FDE23 /* Configuration */,
 				F9BFE56F25820A66003FDE23 /* WCCommon.h */,
@@ -247,12 +311,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9B2484925834637001898B9 /* WCCommonGroupListViewController.m in Sources */,
+				F9B2484A25834637001898B9 /* WCCommonViewController.m in Sources */,
 				F923C2A1258237B400D7EB44 /* QDThemeManager.m in Sources */,
 				F9BFE58925821140003FDE23 /* WCCommonUI.m in Sources */,
 				F923C2A8258238F900D7EB44 /* WCUIHelper.m in Sources */,
+				F9B2485025834637001898B9 /* WCCommonTableViewController.m in Sources */,
+				F9B2484D25834637001898B9 /* WCTabBarViewController.m in Sources */,
+				F9B2484E25834637001898B9 /* WCCommonListViewController.m in Sources */,
 				F923C2A0258237B400D7EB44 /* QMUIConfigurationTemplatePinkRose.m in Sources */,
+				F9B2484B25834637001898B9 /* WCCommonGridViewController.m in Sources */,
 				F923C2A3258237B400D7EB44 /* QMUIConfigurationTemplateGrass.m in Sources */,
+				F9B2484C25834637001898B9 /* WCStyleSelectableTableViewController.m in Sources */,
 				F923C2A4258237B400D7EB44 /* QMUIConfigurationTemplateDark.m in Sources */,
+				F9B2484F25834637001898B9 /* WCNavigationController.m in Sources */,
 				F9BFE57125820A66003FDE23 /* WCCommon.m in Sources */,
 				F9BFE58B25821143003FDE23 /* QMUIConfigurationTemplate.m in Sources */,
 				F923C2A2258237B400D7EB44 /* QMUIConfigurationTemplateGrapefruit.m in Sources */,

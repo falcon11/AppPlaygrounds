@@ -11,7 +11,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface WCDBViewController : QMUICommonViewController
+@interface WCDBViewController : WCCommonViewController
 
 @end
 

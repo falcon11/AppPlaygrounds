@@ -12,7 +12,7 @@
         <!--Navigation Controller-->
         <scene sceneID="fpF-5c-ncr">
             <objects>
-                <navigationController id="5E4-cO-wJP" customClass="QMUINavigationController" sceneMemberID="viewController">
+                <navigationController id="5E4-cO-wJP" customClass="WCNavigationController" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="XZ5-5G-fYj">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
