@@ -188,7 +188,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1160;
-				ORGANIZATIONNAME = iWhaleCloud;
+				ORGANIZATIONNAME = ASHOKA;
 				TargetAttributes = {
 					F91FD8DC2574D69E00F0D5F7 = {
 						CreatedOnToolsVersion = 11.6;

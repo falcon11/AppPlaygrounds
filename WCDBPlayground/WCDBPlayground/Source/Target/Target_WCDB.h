@@ -3,7 +3,7 @@
 //  WCDBPlayground
 //
 //  Created by ashoka on 2020/12/1.
-//  Copyright © 2020 iWhaleCloud. All rights reserved.
+//  Copyright © 2020 ASHOKA. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

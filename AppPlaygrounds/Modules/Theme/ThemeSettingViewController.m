@@ -3,7 +3,7 @@
 //  AppPlaygrounds
 //
 //  Created by ashoka on 2020/12/10.
-//  Copyright © 2020 iWhaleCloud. All rights reserved.
+//  Copyright © 2020 ASHOKA. All rights reserved.
 //
 
 #import "ThemeSettingViewController.h"
