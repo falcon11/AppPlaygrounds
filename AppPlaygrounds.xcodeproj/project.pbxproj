@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2A5A3AEAFAA8E3B07E60BAA7 /* libPods-AppPlaygroundsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E3DD27DF3EF182D60959731 /* libPods-AppPlaygroundsTests.a */; };
 		4550AB399F2C458D110109FD /* libPods-Playground-AppPlaygrounds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2219DF7DDFF56ED31CA86B7 /* libPods-Playground-AppPlaygrounds.a */; };
-		F923C2CF258246F900D7EB44 /* ThemeSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F923C2CE258246F900D7EB44 /* ThemeSettingViewController.m */; };
 		F954929B25676A3100FB64E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F954929A25676A3100FB64E0 /* AppDelegate.m */; };
 		F95492A125676A3100FB64E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F95492A025676A3100FB64E0 /* ViewController.m */; };
 		F95492A425676A3100FB64E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F95492A225676A3100FB64E0 /* Main.storyboard */; };
@@ -52,8 +51,6 @@
 		EB1E3EC7650146BC248C2FA0 /* Pods-Playground-AppPlaygrounds-AppPlaygroundsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Playground-AppPlaygrounds-AppPlaygroundsUITests.release.xcconfig"; path = "Target Support Files/Pods-Playground-AppPlaygrounds-AppPlaygroundsUITests/Pods-Playground-AppPlaygrounds-AppPlaygroundsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F5ED4E730C17710AD7646D75 /* Pods-AppPlaygrounds.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppPlaygrounds.debug.xcconfig"; path = "Target Support Files/Pods-AppPlaygrounds/Pods-AppPlaygrounds.debug.xcconfig"; sourceTree = "<group>"; };
 		F923C2C425823F8E00D7EB44 /* libWCCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libWCCommon.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		F923C2CD258246F900D7EB44 /* ThemeSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThemeSettingViewController.h; sourceTree = "<group>"; };
-		F923C2CE258246F900D7EB44 /* ThemeSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThemeSettingViewController.m; sourceTree = "<group>"; };
 		F954929625676A3100FB64E0 /* AppPlaygrounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppPlaygrounds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F954929925676A3100FB64E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F954929A25676A3100FB64E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -132,15 +129,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F923C2C92582444800D7EB44 /* Theme */ = {
-			isa = PBXGroup;
-			children = (
-				F923C2CD258246F900D7EB44 /* ThemeSettingViewController.h */,
-				F923C2CE258246F900D7EB44 /* ThemeSettingViewController.m */,
-			);
-			path = Theme;
-			sourceTree = "<group>";
-		};
 		F954928D25676A3100FB64E0 = {
 			isa = PBXGroup;
 			children = (
@@ -202,7 +190,6 @@
 		F95492CE25676DDF00FB64E0 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				F923C2C92582444800D7EB44 /* Theme */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -456,7 +443,6 @@
 				F95492A125676A3100FB64E0 /* ViewController.m in Sources */,
 				F954929B25676A3100FB64E0 /* AppDelegate.m in Sources */,
 				F95492AC25676A3400FB64E0 /* main.m in Sources */,
-				F923C2CF258246F900D7EB44 /* ThemeSettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

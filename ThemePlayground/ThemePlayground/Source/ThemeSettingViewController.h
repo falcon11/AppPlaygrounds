@@ -6,6 +6,8 @@
 //  Copyright © 2020 ASHOKA. All rights reserved.
 //
 
+#import <WCCommon/WCCommon.h>
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface ThemeSettingViewController : WCCommonViewController

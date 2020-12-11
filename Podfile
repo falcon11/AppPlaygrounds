@@ -17,6 +17,8 @@ abstract_target 'Playground' do
     pod 'Runtime_Category', :path => 'Runtime'
     pod 'WCDBModule', :path => 'WCDBPlayground'
     pod 'WCDBModule_Category', :path => 'WCDBPlayground'
+    pod 'ThemeModule', :path => 'ThemePlayground'
+    pod 'ThemeModule_Category', :path => 'ThemePlayground'
     pod 'QMUIKit'
 
     # Pods for AppPlaygrounds
@@ -39,6 +41,9 @@ abstract_target 'Playground' do
   target 'WCDBPlayground' do
     project 'WCDBPlayground/WCDBPlayground.xcodeproj'
     pod 'WCDB'
+  end
+  target 'ThemePlayground' do
+    project 'ThemePlayground/ThemePlayground.xcodeproj'
   end
   
 end

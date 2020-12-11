@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import <Runtime_Category/CTMediator+Runtime.h>
 #import <WCDBModule_Category/CTMediator+WCDB.h>
-#import "ThemeSettingViewController.h"
+#import <ThemeModule_Category/CTMediator+Theme.h>
 
 @interface ViewController ()<QMUITableViewDelegate, QMUITableViewDataSource>
 
@@ -36,7 +36,7 @@
             @{
                 @"name": @"Theme",
                 @"selctor": NSStringFromSelector(@selector(pushVC:)),
-                @"params": [ThemeSettingViewController new],
+                @"params": [CTMediator.sharedInstance Theme_viewController],
             },
         ];
     }

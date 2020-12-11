@@ -14,6 +14,9 @@
       location = "group:Runtime/RuntimePlayground.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:ThemePlayground/ThemePlayground.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>

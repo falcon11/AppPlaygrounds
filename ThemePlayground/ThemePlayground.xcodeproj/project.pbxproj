@@ -1,0 +1,700 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3485C9571CE7268D42343A63 /* libPods-Playground-ThemePlayground.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB9AEAAC56F3FBE094E59679 /* libPods-Playground-ThemePlayground.a */; };
+		F9B248B725835E96001898B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B248B625835E96001898B9 /* AppDelegate.m */; };
+		F9B248BA25835E96001898B9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B248B925835E96001898B9 /* SceneDelegate.m */; };
+		F9B248BD25835E96001898B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B248BC25835E96001898B9 /* ViewController.m */; };
+		F9B248C025835E96001898B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9B248BE25835E96001898B9 /* Main.storyboard */; };
+		F9B248C225835E97001898B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9B248C125835E97001898B9 /* Assets.xcassets */; };
+		F9B248C525835E97001898B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9B248C325835E97001898B9 /* LaunchScreen.storyboard */; };
+		F9B248C825835E97001898B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B248C725835E97001898B9 /* main.m */; };
+		F9B248D225835E97001898B9 /* ThemePlaygroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B248D125835E97001898B9 /* ThemePlaygroundTests.m */; };
+		F9B248DD25835E97001898B9 /* ThemePlaygroundUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B248DC25835E97001898B9 /* ThemePlaygroundUITests.m */; };
+		F9B248F225835EEF001898B9 /* CTMediator+Theme.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B248F125835EEF001898B9 /* CTMediator+Theme.m */; };
+		F9B248FB25835F21001898B9 /* Target_Theme.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B248FA25835F21001898B9 /* Target_Theme.m */; };
+		F9B2490425835FA4001898B9 /* ThemeSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B2490325835FA4001898B9 /* ThemeSettingViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9B248CE25835E97001898B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9B248AA25835E96001898B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9B248B125835E96001898B9;
+			remoteInfo = ThemePlayground;
+		};
+		F9B248D925835E97001898B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9B248AA25835E96001898B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9B248B125835E96001898B9;
+			remoteInfo = ThemePlayground;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59010B8E36E7090C4839338D /* Pods-Playground-ThemePlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Playground-ThemePlayground.debug.xcconfig"; path = "Target Support Files/Pods-Playground-ThemePlayground/Pods-Playground-ThemePlayground.debug.xcconfig"; sourceTree = "<group>"; };
+		C49B2F925A1DE90E41624671 /* Pods-Playground-ThemePlayground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Playground-ThemePlayground.release.xcconfig"; path = "Target Support Files/Pods-Playground-ThemePlayground/Pods-Playground-ThemePlayground.release.xcconfig"; sourceTree = "<group>"; };
+		EB9AEAAC56F3FBE094E59679 /* libPods-Playground-ThemePlayground.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Playground-ThemePlayground.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9B248B225835E96001898B9 /* ThemePlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThemePlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9B248B525835E96001898B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F9B248B625835E96001898B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F9B248B825835E96001898B9 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F9B248B925835E96001898B9 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F9B248BB25835E96001898B9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F9B248BC25835E96001898B9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F9B248BF25835E96001898B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9B248C125835E97001898B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9B248C425835E97001898B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9B248C625835E97001898B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9B248C725835E97001898B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F9B248CD25835E97001898B9 /* ThemePlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThemePlaygroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9B248D125835E97001898B9 /* ThemePlaygroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThemePlaygroundTests.m; sourceTree = "<group>"; };
+		F9B248D325835E97001898B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9B248D825835E97001898B9 /* ThemePlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThemePlaygroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9B248DC25835E97001898B9 /* ThemePlaygroundUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThemePlaygroundUITests.m; sourceTree = "<group>"; };
+		F9B248DE25835E97001898B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9B248F025835EEF001898B9 /* CTMediator+Theme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+Theme.h"; sourceTree = "<group>"; };
+		F9B248F125835EEF001898B9 /* CTMediator+Theme.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+Theme.m"; sourceTree = "<group>"; };
+		F9B248F925835F21001898B9 /* Target_Theme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_Theme.h; sourceTree = "<group>"; };
+		F9B248FA25835F21001898B9 /* Target_Theme.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_Theme.m; sourceTree = "<group>"; };
+		F9B2490225835FA4001898B9 /* ThemeSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeSettingViewController.h; sourceTree = "<group>"; };
+		F9B2490325835FA4001898B9 /* ThemeSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemeSettingViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9B248AF25835E96001898B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3485C9571CE7268D42343A63 /* libPods-Playground-ThemePlayground.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9B248CA25835E97001898B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9B248D525835E97001898B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		856709A08071041FBE85F275 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59010B8E36E7090C4839338D /* Pods-Playground-ThemePlayground.debug.xcconfig */,
+				C49B2F925A1DE90E41624671 /* Pods-Playground-ThemePlayground.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		DA77D39AA9C47FC21B1FB6C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB9AEAAC56F3FBE094E59679 /* libPods-Playground-ThemePlayground.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9B248A925835E96001898B9 = {
+			isa = PBXGroup;
+			children = (
+				F9B248B425835E96001898B9 /* ThemePlayground */,
+				F9B248D025835E97001898B9 /* ThemePlaygroundTests */,
+				F9B248DB25835E97001898B9 /* ThemePlaygroundUITests */,
+				F9B248B325835E96001898B9 /* Products */,
+				856709A08071041FBE85F275 /* Pods */,
+				DA77D39AA9C47FC21B1FB6C4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F9B248B325835E96001898B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9B248B225835E96001898B9 /* ThemePlayground.app */,
+				F9B248CD25835E97001898B9 /* ThemePlaygroundTests.xctest */,
+				F9B248D825835E97001898B9 /* ThemePlaygroundUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9B248B425835E96001898B9 /* ThemePlayground */ = {
+			isa = PBXGroup;
+			children = (
+				F9B248EE25835EBC001898B9 /* Source */,
+				F9B248ED25835EB4001898B9 /* Category */,
+				F9B248B525835E96001898B9 /* AppDelegate.h */,
+				F9B248B625835E96001898B9 /* AppDelegate.m */,
+				F9B248B825835E96001898B9 /* SceneDelegate.h */,
+				F9B248B925835E96001898B9 /* SceneDelegate.m */,
+				F9B248BB25835E96001898B9 /* ViewController.h */,
+				F9B248BC25835E96001898B9 /* ViewController.m */,
+				F9B248BE25835E96001898B9 /* Main.storyboard */,
+				F9B248C125835E97001898B9 /* Assets.xcassets */,
+				F9B248C325835E97001898B9 /* LaunchScreen.storyboard */,
+				F9B248C625835E97001898B9 /* Info.plist */,
+				F9B248C725835E97001898B9 /* main.m */,
+			);
+			path = ThemePlayground;
+			sourceTree = "<group>";
+		};
+		F9B248D025835E97001898B9 /* ThemePlaygroundTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9B248D125835E97001898B9 /* ThemePlaygroundTests.m */,
+				F9B248D325835E97001898B9 /* Info.plist */,
+			);
+			path = ThemePlaygroundTests;
+			sourceTree = "<group>";
+		};
+		F9B248DB25835E97001898B9 /* ThemePlaygroundUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F9B248DC25835E97001898B9 /* ThemePlaygroundUITests.m */,
+				F9B248DE25835E97001898B9 /* Info.plist */,
+			);
+			path = ThemePlaygroundUITests;
+			sourceTree = "<group>";
+		};
+		F9B248ED25835EB4001898B9 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F9B248F025835EEF001898B9 /* CTMediator+Theme.h */,
+				F9B248F125835EEF001898B9 /* CTMediator+Theme.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F9B248EE25835EBC001898B9 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				F9B2490225835FA4001898B9 /* ThemeSettingViewController.h */,
+				F9B2490325835FA4001898B9 /* ThemeSettingViewController.m */,
+				F9B248EF25835EC7001898B9 /* Target */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		F9B248EF25835EC7001898B9 /* Target */ = {
+			isa = PBXGroup;
+			children = (
+				F9B248F925835F21001898B9 /* Target_Theme.h */,
+				F9B248FA25835F21001898B9 /* Target_Theme.m */,
+			);
+			path = Target;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9B248B125835E96001898B9 /* ThemePlayground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9B248E125835E97001898B9 /* Build configuration list for PBXNativeTarget "ThemePlayground" */;
+			buildPhases = (
+				A663620083358355C808B215 /* [CP] Check Pods Manifest.lock */,
+				F9B248AE25835E96001898B9 /* Sources */,
+				F9B248AF25835E96001898B9 /* Frameworks */,
+				F9B248B025835E96001898B9 /* Resources */,
+				8CF47ADA25C2925479E3080F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThemePlayground;
+			productName = ThemePlayground;
+			productReference = F9B248B225835E96001898B9 /* ThemePlayground.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9B248CC25835E97001898B9 /* ThemePlaygroundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9B248E425835E97001898B9 /* Build configuration list for PBXNativeTarget "ThemePlaygroundTests" */;
+			buildPhases = (
+				F9B248C925835E97001898B9 /* Sources */,
+				F9B248CA25835E97001898B9 /* Frameworks */,
+				F9B248CB25835E97001898B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9B248CF25835E97001898B9 /* PBXTargetDependency */,
+			);
+			name = ThemePlaygroundTests;
+			productName = ThemePlaygroundTests;
+			productReference = F9B248CD25835E97001898B9 /* ThemePlaygroundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F9B248D725835E97001898B9 /* ThemePlaygroundUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9B248E725835E97001898B9 /* Build configuration list for PBXNativeTarget "ThemePlaygroundUITests" */;
+			buildPhases = (
+				F9B248D425835E97001898B9 /* Sources */,
+				F9B248D525835E97001898B9 /* Frameworks */,
+				F9B248D625835E97001898B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9B248DA25835E97001898B9 /* PBXTargetDependency */,
+			);
+			name = ThemePlaygroundUITests;
+			productName = ThemePlaygroundUITests;
+			productReference = F9B248D825835E97001898B9 /* ThemePlaygroundUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9B248AA25835E96001898B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					F9B248B125835E96001898B9 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					F9B248CC25835E97001898B9 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = F9B248B125835E96001898B9;
+					};
+					F9B248D725835E97001898B9 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = F9B248B125835E96001898B9;
+					};
+				};
+			};
+			buildConfigurationList = F9B248AD25835E96001898B9 /* Build configuration list for PBXProject "ThemePlayground" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9B248A925835E96001898B9;
+			productRefGroup = F9B248B325835E96001898B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9B248B125835E96001898B9 /* ThemePlayground */,
+				F9B248CC25835E97001898B9 /* ThemePlaygroundTests */,
+				F9B248D725835E97001898B9 /* ThemePlaygroundUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9B248B025835E96001898B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9B248C525835E97001898B9 /* LaunchScreen.storyboard in Resources */,
+				F9B248C225835E97001898B9 /* Assets.xcassets in Resources */,
+				F9B248C025835E96001898B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9B248CB25835E97001898B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9B248D625835E97001898B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8CF47ADA25C2925479E3080F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Playground-ThemePlayground/Pods-Playground-ThemePlayground-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Playground-ThemePlayground/Pods-Playground-ThemePlayground-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Playground-ThemePlayground/Pods-Playground-ThemePlayground-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A663620083358355C808B215 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Playground-ThemePlayground-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9B248AE25835E96001898B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9B248FB25835F21001898B9 /* Target_Theme.m in Sources */,
+				F9B2490425835FA4001898B9 /* ThemeSettingViewController.m in Sources */,
+				F9B248BD25835E96001898B9 /* ViewController.m in Sources */,
+				F9B248B725835E96001898B9 /* AppDelegate.m in Sources */,
+				F9B248C825835E97001898B9 /* main.m in Sources */,
+				F9B248F225835EEF001898B9 /* CTMediator+Theme.m in Sources */,
+				F9B248BA25835E96001898B9 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9B248C925835E97001898B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9B248D225835E97001898B9 /* ThemePlaygroundTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9B248D425835E97001898B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9B248DD25835E97001898B9 /* ThemePlaygroundUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9B248CF25835E97001898B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9B248B125835E96001898B9 /* ThemePlayground */;
+			targetProxy = F9B248CE25835E97001898B9 /* PBXContainerItemProxy */;
+		};
+		F9B248DA25835E97001898B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9B248B125835E96001898B9 /* ThemePlayground */;
+			targetProxy = F9B248D925835E97001898B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9B248BE25835E96001898B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9B248BF25835E96001898B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9B248C325835E97001898B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9B248C425835E97001898B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9B248DF25835E97001898B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F9B248E025835E97001898B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9B248E225835E97001898B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59010B8E36E7090C4839338D /* Pods-Playground-ThemePlayground.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ThemePlayground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashoka.ThemePlayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9B248E325835E97001898B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C49B2F925A1DE90E41624671 /* Pods-Playground-ThemePlayground.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ThemePlayground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashoka.ThemePlayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F9B248E525835E97001898B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ThemePlaygroundTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashoka.ThemePlaygroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThemePlayground.app/ThemePlayground";
+			};
+			name = Debug;
+		};
+		F9B248E625835E97001898B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ThemePlaygroundTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashoka.ThemePlaygroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThemePlayground.app/ThemePlayground";
+			};
+			name = Release;
+		};
+		F9B248E825835E97001898B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ThemePlaygroundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashoka.ThemePlaygroundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThemePlayground;
+			};
+			name = Debug;
+		};
+		F9B248E925835E97001898B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ThemePlaygroundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashoka.ThemePlaygroundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThemePlayground;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9B248AD25835E96001898B9 /* Build configuration list for PBXProject "ThemePlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9B248DF25835E97001898B9 /* Debug */,
+				F9B248E025835E97001898B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9B248E125835E97001898B9 /* Build configuration list for PBXNativeTarget "ThemePlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9B248E225835E97001898B9 /* Debug */,
+				F9B248E325835E97001898B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9B248E425835E97001898B9 /* Build configuration list for PBXNativeTarget "ThemePlaygroundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9B248E525835E97001898B9 /* Debug */,
+				F9B248E625835E97001898B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9B248E725835E97001898B9 /* Build configuration list for PBXNativeTarget "ThemePlaygroundUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9B248E825835E97001898B9 /* Debug */,
+				F9B248E925835E97001898B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9B248AA25835E96001898B9 /* Project object */;
+}
