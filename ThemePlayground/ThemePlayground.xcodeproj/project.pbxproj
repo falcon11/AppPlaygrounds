@@ -3,11 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		3485C9571CE7268D42343A63 /* libPods-Playground-ThemePlayground.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB9AEAAC56F3FBE094E59679 /* libPods-Playground-ThemePlayground.a */; };
+		F94E6DE32586188700C48935 /* ThemeResHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F94E6DE22586188700C48935 /* ThemeResHelper.m */; };
+		F94E6DE92586196900C48935 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F94E6DE82586196900C48935 /* Images.xcassets */; };
 		F9B248B725835E96001898B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B248B625835E96001898B9 /* AppDelegate.m */; };
 		F9B248BA25835E96001898B9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B248B925835E96001898B9 /* SceneDelegate.m */; };
 		F9B248BD25835E96001898B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B248BC25835E96001898B9 /* ViewController.m */; };
@@ -43,6 +45,9 @@
 		59010B8E36E7090C4839338D /* Pods-Playground-ThemePlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Playground-ThemePlayground.debug.xcconfig"; path = "Target Support Files/Pods-Playground-ThemePlayground/Pods-Playground-ThemePlayground.debug.xcconfig"; sourceTree = "<group>"; };
 		C49B2F925A1DE90E41624671 /* Pods-Playground-ThemePlayground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Playground-ThemePlayground.release.xcconfig"; path = "Target Support Files/Pods-Playground-ThemePlayground/Pods-Playground-ThemePlayground.release.xcconfig"; sourceTree = "<group>"; };
 		EB9AEAAC56F3FBE094E59679 /* libPods-Playground-ThemePlayground.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Playground-ThemePlayground.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F94E6DE12586188700C48935 /* ThemeResHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThemeResHelper.h; sourceTree = "<group>"; };
+		F94E6DE22586188700C48935 /* ThemeResHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThemeResHelper.m; sourceTree = "<group>"; };
+		F94E6DE82586196900C48935 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F9B248B225835E96001898B9 /* ThemePlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThemePlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9B248B525835E96001898B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F9B248B625835E96001898B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -113,6 +118,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F94E6DB52586132400C48935 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F94E6DE12586188700C48935 /* ThemeResHelper.h */,
+				F94E6DE22586188700C48935 /* ThemeResHelper.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		F94E6DE7258618C900C48935 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F94E6DE82586196900C48935 /* Images.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		F9B248A925835E96001898B9 = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +160,7 @@
 		F9B248B425835E96001898B9 /* ThemePlayground */ = {
 			isa = PBXGroup;
 			children = (
+				F94E6DE7258618C900C48935 /* Assets */,
 				F9B248EE25835EBC001898B9 /* Source */,
 				F9B248ED25835EB4001898B9 /* Category */,
 				F9B248B525835E96001898B9 /* AppDelegate.h */,
@@ -185,6 +208,7 @@
 		F9B248EE25835EBC001898B9 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				F94E6DB52586132400C48935 /* Core */,
 				F9B2490225835FA4001898B9 /* ThemeSettingViewController.h */,
 				F9B2490325835FA4001898B9 /* ThemeSettingViewController.m */,
 				F9B248EF25835EC7001898B9 /* Target */,
@@ -306,6 +330,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9B248C525835E97001898B9 /* LaunchScreen.storyboard in Resources */,
+				F94E6DE92586196900C48935 /* Images.xcassets in Resources */,
 				F9B248C225835E97001898B9 /* Assets.xcassets in Resources */,
 				F9B248C025835E96001898B9 /* Main.storyboard in Resources */,
 			);
@@ -374,6 +399,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F94E6DE32586188700C48935 /* ThemeResHelper.m in Sources */,
 				F9B248FB25835F21001898B9 /* Target_Theme.m in Sources */,
 				F9B2490425835FA4001898B9 /* ThemeSettingViewController.m in Sources */,
 				F9B248BD25835E96001898B9 /* ViewController.m in Sources */,

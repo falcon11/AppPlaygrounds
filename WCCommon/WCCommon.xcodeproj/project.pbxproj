@@ -15,6 +15,9 @@
 		F923C2A4258237B400D7EB44 /* QMUIConfigurationTemplateDark.m in Sources */ = {isa = PBXBuildFile; fileRef = F923C29E258237B400D7EB44 /* QMUIConfigurationTemplateDark.m */; };
 		F923C2A8258238F900D7EB44 /* WCUIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F923C2A7258238F900D7EB44 /* WCUIHelper.m */; };
 		F923C2D325824BAE00D7EB44 /* QDThemeProtocol.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F923C298258237B400D7EB44 /* QDThemeProtocol.h */; };
+		F94E6DBA2586158100C48935 /* WCBaseResHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F94E6DB92586158100C48935 /* WCBaseResHelper.m */; };
+		F94E6DC0258615D100C48935 /* WCResProtocol.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F94E6DB6258613CA00C48935 /* WCResProtocol.h */; };
+		F94E6DC2258615D900C48935 /* WCBaseResHelper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F94E6DB82586158100C48935 /* WCBaseResHelper.h */; };
 		F9B2484925834637001898B9 /* WCCommonGroupListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B2483925834637001898B9 /* WCCommonGroupListViewController.m */; };
 		F9B2484A25834637001898B9 /* WCCommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B2483C25834637001898B9 /* WCCommonViewController.m */; };
 		F9B2484B25834637001898B9 /* WCCommonGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B2483F25834637001898B9 /* WCCommonGridViewController.m */; };
@@ -46,6 +49,8 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				F94E6DC2258615D900C48935 /* WCBaseResHelper.h in CopyFiles */,
+				F94E6DC0258615D100C48935 /* WCResProtocol.h in CopyFiles */,
 				F9B2485225834685001898B9 /* WCTabBarViewController.h in CopyFiles */,
 				F9B2485325834685001898B9 /* WCCommonListViewController.h in CopyFiles */,
 				F9B2485425834685001898B9 /* WCNavigationController.h in CopyFiles */,
@@ -80,6 +85,9 @@
 		F923C29F258237B400D7EB44 /* QMUIConfigurationTemplatePinkRose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIConfigurationTemplatePinkRose.h; sourceTree = "<group>"; };
 		F923C2A6258238F900D7EB44 /* WCUIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCUIHelper.h; sourceTree = "<group>"; };
 		F923C2A7258238F900D7EB44 /* WCUIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCUIHelper.m; sourceTree = "<group>"; };
+		F94E6DB6258613CA00C48935 /* WCResProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCResProtocol.h; sourceTree = "<group>"; };
+		F94E6DB82586158100C48935 /* WCBaseResHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCBaseResHelper.h; sourceTree = "<group>"; };
+		F94E6DB92586158100C48935 /* WCBaseResHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCBaseResHelper.m; sourceTree = "<group>"; };
 		F9B2483925834637001898B9 /* WCCommonGroupListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCCommonGroupListViewController.m; sourceTree = "<group>"; };
 		F9B2483A25834637001898B9 /* WCTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCTabBarViewController.h; sourceTree = "<group>"; };
 		F9B2483B25834637001898B9 /* WCCommonListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCCommonListViewController.h; sourceTree = "<group>"; };
@@ -206,6 +214,7 @@
 				F923C295258237B400D7EB44 /* QMUIConfigurationTemplatePinkRose.m */,
 				F9BFE57925820AB0003FDE23 /* QMUIConfigurationTemplate.h */,
 				F9BFE57A25820AB0003FDE23 /* QMUIConfigurationTemplate.m */,
+				F94E6DB6258613CA00C48935 /* WCResProtocol.h */,
 			);
 			path = Configuration;
 			sourceTree = "<group>";
@@ -217,6 +226,8 @@
 				F923C2A7258238F900D7EB44 /* WCUIHelper.m */,
 				F9BFE57C25820FA2003FDE23 /* WCCommonUI.h */,
 				F9BFE57D25820FA2003FDE23 /* WCCommonUI.m */,
+				F94E6DB82586158100C48935 /* WCBaseResHelper.h */,
+				F94E6DB92586158100C48935 /* WCBaseResHelper.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -326,6 +337,7 @@
 				F923C2A4258237B400D7EB44 /* QMUIConfigurationTemplateDark.m in Sources */,
 				F9B2484F25834637001898B9 /* WCNavigationController.m in Sources */,
 				F9BFE57125820A66003FDE23 /* WCCommon.m in Sources */,
+				F94E6DBA2586158100C48935 /* WCBaseResHelper.m in Sources */,
 				F9BFE58B25821143003FDE23 /* QMUIConfigurationTemplate.m in Sources */,
 				F923C2A2258237B400D7EB44 /* QMUIConfigurationTemplateGrapefruit.m in Sources */,
 			);

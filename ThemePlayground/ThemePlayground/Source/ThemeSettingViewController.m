@@ -9,11 +9,13 @@
 #import "ThemeSettingViewController.h"
 #import <QMUIKit/QMUIKit.h>
 #import <WCCommon/WCCommon.h>
+#import "ThemeResHelper.h"
 
 @interface QDThemeButton : QMUIFillButton
 
 @property(nonatomic, strong) UIColor *themeColor;
 @property(nonatomic, copy) NSString *themeName;
+
 @end
 
 @interface ThemeSettingViewController ()
@@ -22,6 +24,7 @@
 @property (nonatomic, strong) QMUIFloatLayoutView *buttonsContainer;
 @property (nonatomic, strong) NSMutableArray *themeButtons;
 @property (nonatomic, strong) UISwitch *switchView;
+@property (nonatomic, strong) UIImageView *imageView;
 
 @end
 
@@ -41,6 +44,10 @@
 
 - (void)initSubviews {
     [super initSubviews];
+    
+    self.imageView = [[UIImageView alloc] initWithImage:ThemeImageMake(@"wallpaper")];
+    [self.view addSubview:self.imageView];
+    
     self.buttonsContainer = [[QMUIFloatLayoutView alloc] init];
     [self.view addSubview:self.buttonsContainer];
     
@@ -74,6 +81,8 @@
     [super viewDidLayoutSubviews];
     
     UIEdgeInsets padding = UIEdgeInsetsMake(24 + self.view.qmui_safeAreaInsets.top, 24 + self.view.qmui_safeAreaInsets.left, 24 + self.view.qmui_safeAreaInsets.bottom, 24 + self.view.qmui_safeAreaInsets.right);
+    
+    self.imageView.frame = self.view.bounds;
     
     self.buttonsContainer.itemMargins = UIEdgeInsetsMake(0, 0, 8, 0);
     

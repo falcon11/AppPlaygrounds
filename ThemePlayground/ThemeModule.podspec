@@ -11,6 +11,10 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'ThemePlayground/Source/**/*.{h,m}'
+  
+  s.resource_bundles = {
+    'ThemeModule' => ['ThemePlayground/Assets/**/*', 'ThemePlayground/Source/**/*.{storyboard,xib}']
+  }
 
   s.frameworks = 'UIKit' 
   s.dependency 'CTMediator'

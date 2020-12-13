@@ -19,6 +19,8 @@
 #import "WCStyleSelectableTableViewController.h"
 #import "WCTabBarViewController.h"
 
+#import "WCBaseResHelper.h"
+
 @interface WCCommon : NSObject
 
 @end
